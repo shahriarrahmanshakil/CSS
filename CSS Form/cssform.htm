@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssform</title>
+    <style>
+        label{
+            display:inline-block;
+            width:100px;
+            font-size: 30px;
+            font-weight:bolder;
+        }
+
+        input[type="text"]{
+            width:300px;
+            padding: 10px 20px;
+            margin: 20px 0px;
+            box-sizing: border-box;
+            border: 2px solid red;
+            border-radius: 10px;
+            font-size: 30px;
+
+        }
+
+        input[type="text"]:hover{
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+<div style="display: flex;">
+
+    <div>
+    <table>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name">
+        <br><br>
+        <label for="fnm">Father Name</label>
+        <input type="text" id="fnm" name="father name">
+
+    </form>
+    </table>
+
+    </div>
+
+    <div style="margin-left: 50px;">
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="Name">
+        <br><br>
+        <label for="fnm">Father Name</label>
+        <input type="text" id="fnm" name="father name">
+
+    </form>
+
+    </div>
+
+</div>    
+
+</body>
+</html>
