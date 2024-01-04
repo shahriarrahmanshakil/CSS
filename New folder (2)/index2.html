@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        nav{
+            width: 100%;
+            height: 70px;
+            background-color: gray;
+            align-items:center;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .logo{
+            margin-left: 10px;
+            font-size: 20px;
+            color: azure;
+        }
+
+        .menu{
+            display: flex;
+            list-style-type: none;
+        }
+        .menu li a{
+            text-decoration: none;
+            padding: 20px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+        .menu li a:hover{
+            background-color: burlywood;
+        }
+        .search input{
+            border: 1px solid red;
+        }
+
+        .content{
+            display:none ;
+            position: absolute;
+            background-color: orange;
+            margin-top: 20px;
+        }
+        .content a{
+            display: block;
+        }
+
+        .Dropdwons:hover .content{
+           display: block;
+           background-color: cadetblue;
+        }
+
+        .sidemenu{
+            width: 25%;
+            height: 1200px;
+            background-color: rgb(182, 182, 182);
+        }
+
+        .mainmenu{
+            width: 75%;
+            height: 1200px;
+            background-color: rgb(78, 77, 77);
+        }
+
+        .smcontent{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .smcontent li a{
+            text-decoration: none;
+            padding: 12px 24px;
+            color: rgb(255, 255, 255);
+            display:block; 
+        }
+
+        .smcontent li a:hover{
+            background-color: burlywood;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Farjana Epa
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">Epa</a></li>
+            <li><a href="#">Epa</a></li>
+
+            <li class="Dropdwons">
+
+                <a href="#">Epa</a>
+
+                <div class="content">
+
+                    <a href="#">Farjana</a>
+                    <a href="#">Farjana</a>
+                    <a href="#">Farjana</a>
+
+                </div>
+            </li>
+            <li><a href="#">Epa</a></li>
+        </ul>
+
+        <div class="search">
+            <form>
+                <input type="search">
+
+                <button>Search</button>
+
+            </form>
+        </div>
+
+    </nav>
+
+    <div style="display: flex;">
+
+        <div class="sidemenu">
+
+            <ul class="smcontent">
+
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="mainmenu">
+
+        </div>
+
+    </div>
+</body>
+</html>

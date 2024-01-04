@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            width: 100%;
+            height: 70px;
+            background-color: gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 30px;
+            color: aliceblue;
+        }
+
+        .menu{
+            list-style-type: none;
+            display: flex;
+           
+        }
+
+        .menu li a{
+            display:block;
+            text-decoration: none;
+            padding: 23px 20px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+
+        .menu li a:hover{
+            background-color: rgb(214, 167, 104);
+        }
+
+        .drop-content{
+            display: none;
+            position: absolute;
+            background-color: grey;
+            margin-top: 30px;
+        }
+        .dropdwons:hover .drop-content{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            Shahriar Shakil
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+
+            <li class="dropdwons">
+
+                <a href="#">Home</a>
+
+                <div class="drop-content">
+
+                    <a href="#">Rakib</a>
+                    <a href="#">Rakib</a>
+                    <a href="#">Rakib</a>
+
+                </div>
+
+            </li>
+
+            <li><a href="#">Home</a></li>
+
+        </ul>
+
+        <div class="search">
+
+            <form>
+
+                <input type="search">
+                <button>Search</button>
+
+            </form>
+
+        </div>
+
+    </nav>
+</body>
+</html>
