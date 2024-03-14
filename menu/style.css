@@ -1,0 +1,36 @@
+
+.menu { 
+    width: 100%;
+    overflow: hidden;
+    background-color: green;
+ }
+ .logo { 
+    width: 20%;
+    float: left;
+    text-align: center;
+  }
+  .logo img { 
+        width: 90px;
+        margin-top: 10px;
+    }
+ .menu-bar { 
+    width: 50%;
+    float: left;
+ }
+ .menu-bar a{ 
+    text-decoration: none;
+    color: rgb(231, 223, 223);
+    padding: 12px;
+    display: inline-block;
+ }
+  .menu-bar a:hover{ 
+        color: blue;
+        background-color: red;
+  }
+ 
+ .search-bar {
+    width: 30%;
+    float:left;
+    margin-top: 10px;
+ }
+
