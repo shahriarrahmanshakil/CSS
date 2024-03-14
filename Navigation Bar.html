@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation </title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(47, 47, 47);
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo{
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: lighter;
+            margin-left: 50px;
+        }
+        .menu{
+            display: flex;
+            width: 60%;
+            justify-content: ;
+            list-style-type: none;
+            margin-left: 150px;
+        }
+        
+       
+        .menu li a{
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+        .menu li a:hover{
+            background-color:brown;
+        }
+
+        .Search{
+            display: flex;
+            align-items: center;
+            margin-right: 0;
+        }
+        .Search form{
+            display: flex;
+            margin: 0;
+        }
+        .Search input{
+            padding: 5px;
+            border-radius: 10px;
+            margin-right: 10px;
+            
+        }
+        .Search input:hover{
+                    border: 3px solid brown;
+        }
+
+        .Search button{
+            padding: 5px;
+            margin-right: 50px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .Search button:hover{
+            background-color: brown;
+        }
+
+        .asidemenu{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(13, 40, 23);
+        } 
+
+        .asidemenu li a{
+            display: block;
+            text-decoration: none;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            
+
+        }  
+        .asidemenu li a:hover{
+            background-color: brown;
+        }    
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            Shahriar Shakil
+        </div>
+
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contract</a></li>
+            <li><a href="">Address</a></li>
+            <li><a href="">Mobile</a></li>
+        </ul>
+
+        <div class="Search">
+            <input type="text">
+            <button>Search</button>
+        </div>
+
+    </nav>
+
+    <div style="display: flex;">
+
+        <div style="background-color: cadetblue; width: 25%; height: 1000px;">
+         
+            <ul class="asidemenu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Address</a></li>
+         </ul> 
+
+        </div>
+
+        <div style="background-color: chocolate; width: 75%; height: 1000px;">
+            <h1>Bangladesh</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
