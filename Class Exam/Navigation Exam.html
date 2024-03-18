@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Exam</title>
+    <style>
+        img{
+            display: block;
+        }
+
+        nav{
+            display: flex;
+            width: 100%;
+            height: 70px;
+            background-color:rgb(69, 91, 100) ;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            margin-left:10px ;
+
+        }
+
+        .menu{
+            list-style-type:none ;
+            display: flex;
+        }
+
+        .menu li a{
+            text-decoration: none;
+            padding: 20px;
+            color: antiquewhite;
+            margin-right: 50px;
+        }
+
+        .menu li a:hover{
+            background-color:tomato ;         
+        }
+
+        .search{
+          margin-right: 10px;  
+        }
+
+        .asidemenu{
+            width: 25%;
+            height: 1100px;
+            background-color: rgb(45, 126, 64);
+        }
+
+        .acontainer{
+
+            list-style-type: none;
+          
+        }
+
+        .acontainer li{
+            padding: 20px;
+
+        }
+
+        .acontainer li a{
+            text-decoration: none;
+            color: antiquewhite;
+            padding: 20px;
+            display: block;
+        }
+
+        .acontainer li a:hover{
+
+            background-color: tomato;
+
+        }
+        .maincontainer{
+
+            width:100%;
+            height: 1100px;
+            background-color: rgb(163, 31, 31);
+        }
+
+        footer{
+            background-color: black;
+            height: 50px;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+
+           <img src="logo.jpg" alt="" width="50px" height="50px">
+
+        </div>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Service</a></li>
+        </ul>
+
+        <div class="search">
+
+            <form>
+                <input type="search">
+                <button>Search</button>
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div style="display: flex;">
+
+        <div class="asidemenu">
+
+            <ul class="acontainer">
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+            </ul>
+
+        </div>
+
+        <div class="maincontainer">
+            <img src="aa.jpg" alt="" width="100%" height="650px">
+
+            <div style="display: flex;">
+
+                <div style="width: 100%; height: 450px; background-color: blueviolet;">
+                   
+                    <img src="out1.jpg" alt="" width="100%" height="450px">
+
+                </div>
+
+                <div style="width: 100%; height: 450px; background-color: rgb(40, 88, 10);">
+                   
+                    <img src="out2.jpg" alt="" width="100%" height="450px">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        &copy;Shahriar Rahman Shakil
+    </footer>
+    
+</body>
+</html>

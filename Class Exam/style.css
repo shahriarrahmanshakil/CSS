@@ -1,0 +1,63 @@
+
+nav{
+    display:flex;
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: x-large;
+    font-family: 'Trebuchet MS';
+    font-weight:bold;
+    margin-left: 10px;
+    color: azure;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.menu li a:hover{
+    background-color: burlywood;
+}
+
+.search form{
+    display: flex;
+    margin-right: 10px;
+}
+
+.search input{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px ;
+    margin-right: 10px;
+}
+
+.search input:hover{
+    background-color: burlywood;
+}
+
+.search button{
+    background-color: rgb(185, 71, 71);
+    border: none;
+    border-radius: 5px;
+}
+
+.search button:hover{
+    background-color:burlywood ;
+}
+
+

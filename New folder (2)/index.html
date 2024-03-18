@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+
+    <style>
+
+        nav{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            background-color: orange;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 20px;
+            font-weight: 26px;
+            color: white;
+            margin-left:20px ;
+        }
+
+        .menu{
+
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .menu li a{
+            text-decoration: none;
+            padding: 12px 24px;
+            color: aliceblue;
+            display: block;
+        }
+
+        .menu li a:hover{
+            background-color: cadetblue;
+        }
+
+       .dropdwon-content ul{
+            list-style-type: none;
+            display:none ;
+            position: absolute;
+            margin-left:-40px ;
+            margin-top: 2px;
+            
+        }
+
+        .dropdwon-content ul li {
+            padding: 20px 0px;
+            background-color: gray;
+        }
+
+        .dropdwon-content ul li:hover{
+            background-color: brown;
+        }
+
+        .dropdwon:hover .dropdwon-content ul{
+            display: block;
+        }
+
+        .search input{
+            border: 1px solid red;
+        }
+
+        .side-menu{
+            width: 25%;
+            height: 1200px;
+            background-color: gray;
+
+        }
+
+        .side-menu ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .side-menu ul li a{
+            display: block;
+            text-decoration: none;
+            padding: 20px ;
+            color: whitesmoke;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .side-menu ul li a:hover{
+            color: chocolate;
+            background-color: aquamarine;
+        }
+
+
+
+        .main-menu{
+            width: 75%;
+            height: 1200px;
+            background-color: rgb(102, 70, 70);
+
+        }
+
+       
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+
+            Shahriar Shakil
+
+        </div>
+    
+        <ul class="menu">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+
+            <li class="dropdwon">
+
+                <a href="#">Home</a>
+
+             <div class="dropdwon-content">
+                
+                <ul>
+
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Service</a></li>
+
+                </ul>
+
+             </div>
+
+            </li>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+
+        </ul>
+
+        <div>
+
+            <form>
+
+                <input type="search">
+                <button>Search</button>
+
+            </form>
+
+        </div>
+
+    </nav>
+
+    <div style="display: flex;">
+
+        <div class="side-menu">
+
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+        </div>
+        
+
+        <div class="main-menu">
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

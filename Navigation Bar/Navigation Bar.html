@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        img{
+            display: block;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            background-color: grey;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo{
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(11, 248, 248);
+            margin-left: 15px;
+            font-style: oblique;
+        }
+
+        .menu{
+            display: flex;
+            list-style-type: none;
+        }
+        .menu li a{
+            text-decoration: none;
+            padding: 20px;
+            color: aqua;
+            font-size: 20px;
+        }
+
+        .menu li a:hover{
+            background-color: tomato;
+        }
+
+        .search{
+            display: flex;
+            margin-right: 10px;
+        }
+        .search input{
+            border-radius: 5px;
+            border: 2px solid tomato;
+            padding: 5px;
+        }
+        .search input:hover{
+            border: 2px solid grey;
+
+        }
+
+        .search button{
+            padding: 5px;
+            background-color: aqua;
+            border-radius: 5px;
+        }
+
+        .search button:hover{
+            background-color: tomato;
+        }
+
+        .asidemenu{
+            background-color:tomato;
+            width: 25%;
+            height: 1000px;
+        }
+
+        .amenu{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        
+        }
+
+        .amenu li a{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            color: aqua;
+           
+        }
+        .amenu li:hover{
+            background-color: blueviolet;
+        }
+
+        
+        
+
+        .maincontainer{
+            background-color: cadetblue;
+            width: 75%;
+            height: 1000px;    
+        }
+
+        .drop{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropcontent{
+            display:none ;
+            position: absolute;
+            min-width: 50px;
+            min-height: 60px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            background-color: brown;
+        }
+
+        .dropcontent a{
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            Shakil
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#">Home</a>
+
+                <div class="dropdwons">
+
+                <ul class="drop-content">
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                </ul>
+                    
+                </div>
+
+            </li>
+
+            <li><a href="#">Home</a></li>
+
+        </ul>
+
+        <div class="search">
+            <form>
+                <input type="search">
+                <button>Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div style="display: flex;">
+
+        <div class="asidemenu">
+
+            <h2 style="text-align: center;">
+                Arrong
+            </h2>
+
+            <ul class="amenu">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="maincontainer">
+            <img src="aa.jpg" alt="outlet" width="100%" height="600px">
+
+            <div style="display: flex;">
+                <div>
+                    <img src="out1.jpg" alt="" width="100%" height="400px">
+                </div>
+
+                <div>
+                    <img src="out2.jpg" alt="" width="100%" height="400px">
+                </div>
+
+                <div>
+                    <img src="out3.jpg" alt="" width="100%" height="400px">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

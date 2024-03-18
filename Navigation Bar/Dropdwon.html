@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdwon</title>
+
+    <style>
+        .drop{
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .dropcontent{
+            position:absolute;
+            display: none;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            cursor: pointer;
+           
+        }
+
+        .drop:hover  .dropcontent{
+            display: block;
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Dropdwon</h1>
+
+    <div class="drop">
+
+        <span>Click Here</span>
+
+        <div class="dropcontent">
+
+        <p>Bangladesh</p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

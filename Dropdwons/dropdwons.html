@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdwons</title>
+    <style>
+        button{
+            background-color: cadetblue;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 3px;
+            color: rgb(246, 244, 244);
+            font-size: 15px;
+            cursor: pointer;
+           
+        }
+
+        .dropdwons{
+            display: inline-block;
+            position: relative;
+        }
+        .drop-content{
+            display:none;
+            position: absolute;
+
+        }
+
+        .drop-content a{
+            display: block;
+            padding: 15px 33px ;
+            text-decoration: none;
+            font-size: large;
+            color: aliceblue;
+            background-color: burlywood;
+            border-radius: 5px;
+        }
+
+        .drop-content a:hover{
+            background-color:rgb(3, 86, 58) ;
+            color: orange;
+        }
+
+        .dropdwons:hover .drop-content{
+            display: block;
+        }
+        .dropdwons:hover button{
+            background-color: crimson;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="dropdwons">
+
+        <button>Dropdwons</button>
+
+        <div class="drop-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 1</a>
+        </div>
+
+    </div>
+</body>
+</html>
