@@ -1,3 +1,7 @@
-h1{
-    color: goldenrod;
+
+/* External CSS */
+h3,p{
+    background-color: rgb(107, 105, 99);
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
