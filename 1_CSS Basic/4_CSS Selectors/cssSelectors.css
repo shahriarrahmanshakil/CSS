@@ -1,3 +1,31 @@
+/* Universal selector */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
 h1{
     background-color: grey;
+}
+
+/* id selector */
+#para{
+    background-color: rgb(223, 218, 218);
+    border: 1px solid salmon;
+    color: brown;
+    width: 500px;
+}
+
+/* Class Selector */
+.myclass{
+    background-color: burlywood;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* sepecific class selector */
+p.mycl{
+    text-align: right;
+    color: cadetblue;
 }
