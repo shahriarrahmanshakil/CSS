@@ -1,0 +1,16 @@
+#headingOne{
+    color: green;
+}
+
+#headingTwo{
+    color:red;
+}
+
+#headingThree{
+    color: purple;
+}
+
+.myClass{
+    background-color: darkslategray;
+    color: white;
+}
